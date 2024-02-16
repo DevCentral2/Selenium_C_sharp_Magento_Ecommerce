@@ -9,12 +9,11 @@ namespace Selenium_Magento_Ecommerce
     {
         string baseURL = "https://magento.softwaretestingboard.com/";
 
-        //make this a member variable, so that it can be initialised in Setup() and is accessible to the Tests
-        IWebDriver webDriver;
+         IWebDriver webDriver;     //make this a member variable, so that it can be initialised in Setup() and is accessible to the Tests
 
-         HomePage homePage;
-         LoginPage loginPage;
-         ShoppingPage shoppingPage;
+        HomePage homePage;
+        LoginPage loginPage;
+        ShoppingPage shoppingPage;
 
         //bool HeadlessMode = false;
 
